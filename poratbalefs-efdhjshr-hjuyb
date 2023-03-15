@@ -58,6 +58,7 @@ newsec:NewToggle("clicck to up", "it ups you", function(state)
         flying:Play()
         game.Players.LocalPlayer.Character.Humanoid.HipHeight = 100
     else
+        bruh:Play()
         game.Players.LocalPlayer.Character.Humanoid.HipHeight = 0
     end
 end)
@@ -79,6 +80,7 @@ newsec:NewSlider("Set speed", "this sets your characters speed", 500, 16, functi
 end)
 newsec:NewToggle("clicck to joomp heigh", "it joomp heighs you", function(state)
     if state then
+        ahhdie:Play()
         game.Players.LocalPlayer.Character.Humanoid.JumpPower = 250
     else
         game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
